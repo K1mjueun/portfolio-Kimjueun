@@ -1,30 +1,5 @@
 
-//화면 전환 함수
-// let displayAppear = [
-//   {opacity: 0.7},
-//   {opacity: 0.8},
-//   {opacity: 0.9},
-//   {opacity: 1},
-// ];
-
-//   let displayChangeTime = {
-//     duration: 500,
-//     iterations: 1
-//   };
-
-//   function displayChange(element, disappearTarget, appearTarget) {
-//     element.addEventListener('click', function() {
-//       disappearTarget.style.display = "none";
-//       appearTarget.style.display = "flex";
-//       appearTarget.animate(displayAppear,displayChangeTime);
-//       appearTarget.style.opacity = 1;
-//     });
-//   };
-  //
   
-
-
-
   const startP = document.querySelector("#start-page");
   const startPlogo = startP.children;
   const loginP = document.querySelector("#login-page");
@@ -86,23 +61,6 @@
   const mouseInfo2 = document.querySelector(".movie-img-2 > section:nth-child(1) > .mouse-info");
   const infoBtn3 = document.querySelector(".movie-name-2 > section:nth-child(2) > .info-button");
   const mouseInfo3 = document.querySelector(".movie-img-2 > section:nth-child(2) > .mouse-info");
-
-  // let tof = true;
-  // if(tof === true) {
-  //   infoBtn.addEventListener("click", function() {
-  //     mouseInfo.style.display = "flex";
-  //     tof = false;
-  //     console.log(tof);
-  //   });
-  // };
-  
-  // if(tof === false) {
-  //   infoBtn.addEventListener("click", function() {
-  //     mouseInfo.style.display = "none";
-  //     tof = true;
-  //     console.log(tof);
-  //   });
-  // };
 
   function movieInfo(infoBtn, mouseInfo) {
     infoBtn.addEventListener("mouseover", function() {

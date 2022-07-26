@@ -16,7 +16,7 @@
   height: 70px;
   background-position: center;
   background-size: cover;
-  background-image: url("./windie/img/윈디-스티커-가로형.png");
+  background-image: url("../windie/img/윈디-스티커-가로형.png");
 }
 
 #menu-box {
@@ -57,7 +57,7 @@
   height: 50px;
   background-size: cover;
   background-position: center;
-  background-image: url("/img/menu-arrow.png");
+  background-image: url("../windie/img/menu-arrow.png");
 
   right:5px;
   top:5px;

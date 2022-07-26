@@ -16,7 +16,6 @@
 }
 
 #phone-vertical {
-  /* border-radius: 30px; */
   width: 342px;
   height: 740px;
   background-color: var(--color-black);
@@ -28,13 +27,8 @@
   overflow: auto;
 
   position: relative;
-  /* -ms-overflow-style: none; IE and Edge
-  scrollbar-width: none; Firefox */
 }
 
-/* #phone-vertical::-webkit-scrollbar {
-  display: none; Chrome, Safari, Opera */
-/* } */
 
 #fixed-menu {
     width: 100%;

@@ -84,28 +84,28 @@
 }
 
 .canada {
-  background-image: url("./windie/img/카테고리 이미지/캐나다.jpg");
+  background-image: url("../windie/img/카테고리 이미지/캐나다.jpg");
 }
 .usa {
-  background-image: url("./windie/img/카테고리 이미지/미국.jpg");
+  background-image: url("../windie/img/카테고리 이미지/미국.jpg");
 }
 .france {
-  background-image: url("./windie/img/카테고리 이미지/프랑스.jpg");
+  background-image: url("../windie/img/카테고리 이미지/프랑스.jpg");
 }
 .germany {
-  background-image: url("./windie/img/카테고리 이미지/독일.png");
+  background-image: url("../windie/img/카테고리 이미지/독일.png");
 }
 .korea {
-  background-image: url("./windie/img/카테고리 이미지/한국.jpg");
+  background-image: url("../windie/img/카테고리 이미지/한국.jpg");
 }
 .japan {
-  background-image: url("./windie/img/카테고리 이미지/일본.jpg");
+  background-image: url("../windie/img/카테고리 이미지/일본.jpg");
 }
 .hongkong {
-  background-image: url("./windie/img/카테고리 이미지/홍콩.jpg");
+  background-image: url("../windie/img/카테고리 이미지/홍콩.jpg");
 }
 .taiwan {
-  background-image: url("./windie/img/카테고리 이미지/대만.jpg");
+  background-image: url("../windie/img/카테고리 이미지/대만.jpg");
 }
 
 .category-nation:hover {
