@@ -1,10 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style-type: none;
-  /* font-family: 'Noto Sans KR', sans-serif; */
-}
 
 #root {
   width: 100vw;
@@ -25,7 +18,8 @@
   justify-content: center;
   flex-direction: column;
   overflow: auto;
-
+  
+  font-family: 'IBM Plex Sans KR', sans-serif;
   position: relative;
 }
 
