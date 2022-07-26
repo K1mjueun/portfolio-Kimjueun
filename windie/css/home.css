@@ -142,7 +142,7 @@
   height: 28%;
   background-size: cover;
   background-position: center;
-  background-image: url("/img/족구왕.jpg");
+  background-image: url("./windie/img/족구왕.jpg");
   
   border-bottom: 2px solid var(--color-white);
 }
@@ -190,7 +190,7 @@
 .movie-img-2 > section:nth-child(1) {
   background-size: cover;
   background-position: center;
-  background-image: url("/img/소공녀.jpg");
+  background-image: url("./windie/img/소공녀.jpg");
 
   border-right: 2px solid var(--color-white);
 }
@@ -198,7 +198,7 @@
 .movie-img-2 > section:nth-child(2) {
   background-size: cover;
   background-position: center;
-  background-image: url("/img/작은빛.jpg");
+  background-image: url("./windie/img/작은빛.jpg");
 
   border-right: 2px solid var(--color-white);
 }

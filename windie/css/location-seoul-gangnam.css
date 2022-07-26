@@ -51,7 +51,7 @@
 
   background-size: cover;
   background-position: center;
-  background-image: url("/img/menu-arrow.png");
+  background-image: url("./windie/img/menu-arrow.png");
 }
 
 #gangnam-box > li:nth-child(1) {

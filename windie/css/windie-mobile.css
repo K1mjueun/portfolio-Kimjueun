@@ -10,9 +10,9 @@
 }
 
 #phone-vertical {
+  /* border-radius: 30px; */
   width: 342px;
   height: 740px;
-  border-radius: 30px;
   background-color: var(--color-black);
   
   display: flex;

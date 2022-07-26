@@ -130,28 +130,28 @@
 }
 
 .comedy {
-  background-image: url("/img/카테고리 이미지/코미디.jpg");
+  background-image: url("./windie/img/카테고리 이미지/코미디.jpg");
 }
 .romance {
-  background-image: url("/img/카테고리 이미지/로맨스.jpg");
+  background-image: url("./windie/img/카테고리 이미지/로맨스.jpg");
 }
 .drama {
-  background-image: url("/img/카테고리 이미지/드라마.jpg");
+  background-image: url("./windie/img/카테고리 이미지/드라마.jpg");
 }
 .fantasy {
-  background-image: url("/img/카테고리 이미지/판타지.jpg");
+  background-image: url("./windie/img/카테고리 이미지/판타지.jpg");
 }
 .action {
-  background-image: url("/img/카테고리 이미지/액션.jpg");
+  background-image: url("./windie/img/카테고리 이미지/액션.jpg");
 }
 .noir {
-  background-image: url("/img/카테고리 이미지/느와르.jpg");
+  background-image: url("./windie/img/카테고리 이미지/느와르.jpg");
 }
 .mystery {
-  background-image: url("/img/카테고리 이미지/미스터리.jpg");
+  background-image: url("./windie/img/카테고리 이미지/미스터리.jpg");
 }
 .thriller {
-  background-image: url("/img/카테고리 이미지/스릴러.jpg");
+  background-image: url("./windie/img/카테고리 이미지/스릴러.jpg");
 }
 
 .category, .category-genre:hover {

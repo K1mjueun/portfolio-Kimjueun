@@ -84,28 +84,28 @@
 }
 
 .cute {
-  background-image: url("/img/카테고리 이미지/귀여운.jpg");
+  background-image: url("./windie/img/카테고리 이미지/귀여운.jpg");
 }
 .healing {
-  background-image: url("/img/카테고리 이미지/힐링.jpg");
+  background-image: url("./windie/img/카테고리 이미지/힐링.jpg");
 }
 .family {
-  background-image: url("/img/카테고리 이미지/가족.jpg");
+  background-image: url("./windie/img/카테고리 이미지/가족.jpg");
 }
 .bright {
-  background-image: url("/img/카테고리 이미지/밝은.jpg");
+  background-image: url("./windie/img/카테고리 이미지/밝은.jpg");
 }
 .crime {
-  background-image: url("/img/카테고리 이미지/범죄.jpg");
+  background-image: url("./windie/img/카테고리 이미지/범죄.jpg");
 }
 .gloom {
-  background-image: url("/img/카테고리 이미지/우울한.jpg");
+  background-image: url("./windie/img/카테고리 이미지/우울한.jpg");
 }
 .dark {
-  background-image: url("/img/카테고리 이미지/어두운.jpg");
+  background-image: url("./windie/img/카테고리 이미지/어두운.jpg");
 }
 .woman {
-  background-image: url("/img/카테고리 이미지/여성.jpg");
+  background-image: url("./windie/img/카테고리 이미지/여성.jpg");
 }
 
 .category-feature:hover {
