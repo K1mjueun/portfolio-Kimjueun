@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* windie-process-page */
+#windie-process-page {
+  width: 100vw;
+  height: 500vh;
+  display: none;
+  opacity: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+#windie-process-page #process-page-1 > header > .introduce {
+  width: 17%;
+}
+
+#windie-process-page #process-page-1 #process-board .process-img-1 {
+  background-image: url("../img/기획과정/윈디 WHY.png");
+}
+
+#windie-process-page #process-page-2 #process-board .process-img-2 {
+  background-image: url("../img/기획과정/윈디 HOW.png");
+}
+
+#windie-process-page #process-page-3 #process-board .process-img-3 {
+  background-image: url("../img/기획과정/윈디 DESIGN.png");
+}
+
+#windie-process-page #process-page-4 #process-board .process-img-4 {
+  background-image: url("../img/기획과정/윈디 FIGMA.png");
+}
+
+#windie-process-page #process-page-5 #process-board .process-img-5 {
+  background-image: url("../img/목업/목업-윈디-폰-1.png");
+}
+
+.top-arrow:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+.top-sticker {
+  width: 85px;
+  height: 75px;
+  border-radius: 10px;
+  background-color: var(--color-white-1);
+  position: absolute;
+  right: 2.5%;
+  bottom: .5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top-arrow {
+  width: 42px;
+  height: 42px;
+  background-image: url("../img/new-arrow.png");
+  background-size: cover;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+#process-page-1, #process-page-2, #process-page-3, #process-page-4, #process-page-5 {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-bage-1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#process-board {
+  width: 95%;
+  height: 80%;
+  border-radius: 20px;
+  background-color: var(--color-white-1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2.5%;
+}
+
+.process-img-1, .process-img-2, .process-img-3, .process-img-4, .process-img-5 {
+  width: 45%;
+  height: 80%;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 20px;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.process-info-1, .process-info-2, .process-info-3, .process-info-4, .process-info-5 {
+  width: 45%;
+  height: 80%;
+  margin-left: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.process-info-1 p, .process-info-2 p, .process-info-3 p, .process-info-4 p, .process-info-5 p {
+  margin-top: 5%;
+  color: var(--color-orbrown-1);
+  font-size: 23px;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.why, .how, .design, .figma, .mockup {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: var(--color-orbrown-2);
+  font-size: 40px;
+  font-family: 'Gochi Hand', cursive;
+  font-weight: normal;
+}
+/*# sourceMappingURL=style-process-windie.css.map */

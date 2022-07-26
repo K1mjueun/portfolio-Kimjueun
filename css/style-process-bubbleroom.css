@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* bubbleroom-process-page */
+#bubbleroom-process-page {
+  width: 100vw;
+  height: 500vh;
+  display: none;
+  opacity: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+#bubbleroom-process-page #process-page-1 > header > .introduce {
+  width: 17%;
+}
+
+#bubbleroom-process-page #process-page-1 #process-board .process-img-1 {
+  background-image: url("../img/기획과정/버블룸 WHY.png");
+}
+
+#bubbleroom-process-page #process-page-2 #process-board .process-img-2 {
+  background-image: url("../img/기획과정/버블룸 HOW.png");
+}
+
+#bubbleroom-process-page #process-page-3 #process-board .process-img-3 {
+  background-image: url("../img/기획과정/버블룸 DESIGN.png");
+}
+
+#bubbleroom-process-page #process-page-4 #process-board .process-img-4 {
+  background-image: url("../img/기획과정/버블룸 FIGMA.png");
+}
+
+#bubbleroom-process-page #process-page-5 #process-board .process-img-5 {
+  background-image: url("../img/목업/목업-버블룸-메인.png");
+}
+/*# sourceMappingURL=style-process-bubbleroom.css.map */
