@@ -1,7 +1,8 @@
 /* windie-mobile-page */
 #windie-mobile-page {
   width: 100vw;
-  height: 200vh;
+  // height: 200vh;
+  height: 100vh;
   display: none;
   opacity: 0;
 
@@ -12,7 +13,7 @@
 
   #windie-mobile-page-1, #windie-mobile-page-2 {
   width: 100%;
-  height: 50%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
