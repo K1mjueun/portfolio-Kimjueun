@@ -1,22 +1,21 @@
-@import url("/windie/css/color-set.css");
-@import url("/windie/css/windie-mobile.css");
+@import url("./windie/css/color-set.css");
+@import url("./windie/css/windie-mobile.css");
 
-@import url("/windie/css/start-page.css");
-@import url("/windie/css/login-page.css");
-@import url("/windie/css/first-page.css");
+@import url("./windie/css/start-page.css");
+@import url("./windie/css/login-page.css");
+@import url("./windie/css/first-page.css");
 
-@import url("/windie/css/home.css");
-@import url("/windie/css/search-genre.css");
-@import url("/windie/css/search-nation.css");
-@import url("/windie/css/search-feature.css");
+@import url("./windie/css/home.css");
+@import url("./windie/css/search-genre.css");
+@import url("./windie/css/search-nation.css");
+@import url("./windie/css/search-feature.css");
+@import url("./windie/css/mypage-1.css");
 
-@import url("/windie/css/mypage-1.css");
+@import url("./windie/css/cinema.css");
+@import url("./windie/css/magazine.css");
+@import url("./windie/css/location.css");
 
-@import url("/windie/css/cinema.css");
-@import url("/windie/css/magazine.css");
-@import url("/windie/css/location.css");
-
-@import url("/windie/css/movie-searching.css");
-@import url("/windie/css/released.css");
-@import url("/windie/css/location-seoul.css");
-@import url("/windie/css/location-seoul-gangnam.css");
+@import url("./windie/css/movie-searching.css");
+@import url("./windie/css/released.css");
+@import url("./windie/css/location-seoul.css");
+@import url("./windie/css/location-seoul-gangnam.css");
