@@ -23,14 +23,19 @@
   justify-content: center;
 
   margin-right: 5.5%;
+
+  .arrow {
+    width: 42px;
+    height: 42px;
+    background-image: url('../img/new-arrow.png');
+    background-size: cover;
+    position: relative;
+
+    right: 0px;
+    top: 0px;
+  }
 }
 
-.arrow {
-  width: 42px;
-  height: 42px;
-  background-image: url('../img/new-arrow.png');
-  background-size: cover;
-}
 
 .w-sticker-1, .w-sticker-2 {
   background-size: cover;
