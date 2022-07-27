@@ -98,20 +98,13 @@ ballNtext[0].addEventListener('click', () => {
 
   if (page2.style.display = "flex") {
 
-    Appear(heart06[0], Second);
-    Appear(heart06[1], Second * 2);
-    Appear(heart06[2], Second * 3);
-    Appear(heart06[3], Second * 4);
-    Appear(heart06[4], Second * 5);
-    Appear(heart06[5], Second * 6);
-    Appear(heart06[6], Second * 7);
+    for(let i=0; i<heart06.length-1; i++) {
+      Appear(heart06[i], Second*(i+1))
+    }
 
-    Appear(greetingText[0], SecondSlow * 2);
-    Appear(greetingText[1], SecondSlow * 3);
-    Appear(greetingText[2], SecondSlow * 4);
-    Appear(greetingText[3], SecondSlow * 5);
-    Appear(greetingText[4], SecondSlow * 6);
-    Appear(greetingText[5], SecondSlow * 7);
+    for(let i=0; i<greetingText.length-1; i++) {
+      Appear(greetingText[i], SecondSlow*(i+2))
+    }
 
     Appear(snackBone, SecondSlow * 8);
 
@@ -180,9 +173,6 @@ const kongsunIllu = document.querySelector('.kongsun-illu-bottom');
 const lastHeart06 = page5.children;
 const goodBye1 = document.querySelector('.page-5 > h1');
 const goodBye2 = document.querySelector('.page-5 > h2');
-console.log(lastHeart06);
-console.log(goodBye1);
-console.log(goodBye2);
 
 kongsunIllu.addEventListener('click', function () {
   page4.style.display = "none";
@@ -191,19 +181,9 @@ kongsunIllu.addEventListener('click', function () {
   for (let i = 8; i < 16; i++) {
     mandooFace[i].style.display = "none";
 
-    // if (page5.style.display = "flex") {
-    //   for(let i=0; i<lastHeart06.length; i++) {
-    //     Appear(lastHeart06[i], Second*i);
-    // };
-    // ↑ 이걸 쓰니까 맨 밑 goodBye들 Appear속도가 너무 빨라짐
-
-    Appear(lastHeart06[0], Second);
-    Appear(lastHeart06[1], Second * 2);
-    Appear(lastHeart06[2], Second * 3);
-    Appear(lastHeart06[3], Second * 4);
-    Appear(lastHeart06[4], Second * 5);
-    Appear(lastHeart06[5], Second * 6);
-    Appear(lastHeart06[6], Second * 7);
+    for(let i=0; i<lastheart06.length-1; i++) {
+      Appear(lastheart06[i], Second*(i+1))
+    }
 
     Appear(goodBye1, SecondSlow*2);
     Appear(goodBye2, SecondSlow*3);

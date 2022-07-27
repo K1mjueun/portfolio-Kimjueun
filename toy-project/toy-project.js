@@ -154,9 +154,6 @@ const kongsunIllu = document.querySelector('.kongsun-illu-bottom');
 const lastHeart06 = page5.children;
 const goodBye1 = document.querySelector('.page-5 > h1');
 const goodBye2 = document.querySelector('.page-5 > h2');
-console.log(lastHeart06);
-console.log(goodBye1);
-console.log(goodBye2);
 
 kongsunIllu.addEventListener('click', function () {
   page4.style.display = "none";

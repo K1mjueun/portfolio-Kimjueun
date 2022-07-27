@@ -1,7 +1,7 @@
 // main page 1
 const mainPage1 = document.querySelector("#main-page");
 
-displayChange(myPhoto,startPage2,mainPage1);
+displayChange(inStartPage2.myPhoto,startPage2,mainPage1);
 
 const workBox = document.querySelector("#work-box");
 const windie = workBox.children[0];
