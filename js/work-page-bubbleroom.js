@@ -15,16 +15,16 @@ const rightBtn2 = document.querySelector("#work-page-bubbleroom >  #board > #wor
 
 const imgSlideBubbleroom = document.querySelector("#work-page-bubbleroom > #board > #work-img-slide");
 
-const bubbleroomSlide1 = imgSlideBubbleroom.children[1];
-const bubbleroomSlide2 = imgSlideBubbleroom.children[2];
-const bubbleroomSlide3 = imgSlideBubbleroom.children[3];
-const bubbleroomSlide4 = imgSlideBubbleroom.children[4];
-const bubbleroomSlide5 = imgSlideBubbleroom.children[5];
-const bubbleroomSlide6 = imgSlideBubbleroom.children[6];
-const bubbleroomSlide7 = imgSlideBubbleroom.children[7];
-const bubbleroomSlide8 = imgSlideBubbleroom.children[8];
-
-const bubbleroomSlides = [bubbleroomSlide1,bubbleroomSlide2,bubbleroomSlide3,bubbleroomSlide4,bubbleroomSlide5,bubbleroomSlide6,bubbleroomSlide7,bubbleroomSlide8];
+const bubbleroomSlides = [
+  bubbleroomSlide1 = imgSlideBubbleroom.children[1],
+  bubbleroomSlide2 = imgSlideBubbleroom.children[2],
+  bubbleroomSlide3 = imgSlideBubbleroom.children[3],
+  bubbleroomSlide4 = imgSlideBubbleroom.children[4],
+  bubbleroomSlide5 = imgSlideBubbleroom.children[5],
+  bubbleroomSlide6 = imgSlideBubbleroom.children[6],
+  bubbleroomSlide7 = imgSlideBubbleroom.children[7],
+  bubbleroomSlide8 = imgSlideBubbleroom.children[8]
+]
 
 bubbleroomSlideControl(bubbleroomSlides);
 bubbleroomSlide(leftBtn2,bubbleroomSlides);

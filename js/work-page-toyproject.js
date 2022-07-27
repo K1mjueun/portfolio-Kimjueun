@@ -15,10 +15,10 @@ const rightBtn3 = document.querySelector("#work-page-toyproject > #board > #work
 
 const imgSlideToyproject = document.querySelector("#work-page-toyproject > #board > #work-img-slide");
 
-const toyprojectSlide1 = imgSlideToyproject.children[1];
-const toyprojectSlide2 = imgSlideToyproject.children[2];
-
-const toyprojectSlides = [toyprojectSlide1,toyprojectSlide2];
+const toyprojectSlides = [
+  toyprojectSlide1 = imgSlideToyproject.children[1],
+  toyprojectSlide2 = imgSlideToyproject.children[2]
+]
 
 toyprojectSlideControl(toyprojectSlides);
 toyprojectSlide(leftBtn3,toyprojectSlides);

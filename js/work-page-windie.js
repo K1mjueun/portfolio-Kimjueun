@@ -15,13 +15,13 @@ const rightBtn1 = document.querySelector("#work-page-windie > #board > #work-img
 
 const imgSlideWindie = document.querySelector("#work-page-windie > #board > #work-img-slide");
 
-const windieSlide1 = imgSlideWindie.children[1];
-const windieSlide2 = imgSlideWindie.children[2];
-const windieSlide3 = imgSlideWindie.children[3];
-const windieSlide4 = imgSlideWindie.children[4];
-const windieSlide5 = imgSlideWindie.children[5];
-
-const windieSlides = [windieSlide1,windieSlide2,windieSlide3,windieSlide4,windieSlide5];
+const windieSlides = [
+  windieSlide1 = imgSlideWindie.children[1],
+  windieSlide2 = imgSlideWindie.children[2],
+  windieSlide3 = imgSlideWindie.children[3],
+  windieSlide4 = imgSlideWindie.children[4],
+  windieSlide5 = imgSlideWindie.children[5]
+]
 
 windieSlideControl(windieSlides);
 windieSlide(leftBtn1,windieSlides);

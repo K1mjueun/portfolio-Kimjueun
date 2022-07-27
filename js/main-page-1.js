@@ -32,7 +32,7 @@ let blingBingle = [
     iterations:1
   };
 
-myPhoto.addEventListener('click', function() {
+  inStartPage2.myPhoto.addEventListener('click', function() {
     setTimeout(function() {
       bling.animate(blingBingle,blingBingleTime);
     },500);
