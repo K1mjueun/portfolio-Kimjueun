@@ -3,7 +3,6 @@ const toyprojectPCPage = document.querySelector('#toyproject-pc-page');
 displayChange(toypjWorkProBtns.children[1],wpToyproject,toyprojectPCPage);
 
 const toypjPCbackBtn = document.querySelector("#toyproject-pc-page >.app-back");
-// const toypjPCTopBtn = document.querySelector("#toyproject-pc-page > #note-board>.pc-top-sticker");
 
 displayChange(toypjPCbackBtn,toyprojectPCPage,wpToyproject);
 // 뒤로가기
@@ -102,7 +101,7 @@ ballNtext[0].addEventListener('click', () => {
       Appear(heart06[i], Second*(i+1))
     }
 
-    for(let i=0; i<greetingText.length-1; i++) {
+    for(let i=0; i<greetingText.length; i++) {
       Appear(greetingText[i], SecondSlow*(i+2))
     }
 
@@ -138,7 +137,7 @@ function displayNone(element, elemlength) {
     element[i].style.display = "none";
   };
 };
-displayNone(heart06, heart06.length - 3);
+displayNone(heart06, heart06.length-3);
 displayNone(greetingText, greetingText.length);
 
 //페이지 3
@@ -178,14 +177,15 @@ kongsunIllu.addEventListener('click', function () {
   page4.style.display = "none";
   page5.style.display = "flex";
   mandooBack.style.height = "100vh";
-  for (let i = 8; i < 16; i++) {
-    mandooFace[i].style.display = "none";
 
-    for(let i=0; i<lastheart06.length-1; i++) {
-      Appear(lastheart06[i], Second*(i+1))
-    }
+  for (let i=8; i<16; i++) {
+    mandooFace[i].style.display = "none";
+  };
+  
+  for(let i=0; i<lastHeart06.length-1; i++) {
+    Appear(lastHeart06[i], Second*(i+1))
+  };
 
     Appear(goodBye1, SecondSlow*2);
     Appear(goodBye2, SecondSlow*3);
-};
 });
